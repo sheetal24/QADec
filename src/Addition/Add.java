@@ -9,7 +9,11 @@ public class Add {
         int c = a + b;
         System.out.println("Addition of 2 numbers is " +c);
     }
-
+    public void SubNumbers()
+    {
+        int c = a - b;
+        System.out.println("Subtraction of 2 numbers is " +c);
+    }
     public static void Main(String[] args)
     {
         Add add = new Add();
